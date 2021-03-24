@@ -1,0 +1,4 @@
+#file to ignore and not pushet to githup
+ /node_modules
+# dotenv file
+.env
