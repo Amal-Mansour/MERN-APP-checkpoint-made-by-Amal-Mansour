@@ -9,7 +9,7 @@ const postContact = async (req , res) =>{
 
 try{
     const {name,email,phone} = req.body
-    // name and mail are reqquired
+    // name and mail are required
     if(!name || !email){
       res.status(400).send({msg :'name and email are requires... !!!'})
       return ;
@@ -92,4 +92,4 @@ const deleteContact = async(req,res)=>{
   }
   
 
-  model.exports ={ postContact,getAllContacts,getContact,deleteContact,editContact }
+  model.exports = { postContact,getAllContacts,getContact,deleteContact,editContact }

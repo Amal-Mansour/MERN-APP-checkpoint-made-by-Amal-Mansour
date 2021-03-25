@@ -16,7 +16,7 @@ const {
      getContact,
      deleteContact,
      editContact,
-} = require('../Controllers/Contact.controller)
+} = require('../Controllers/Contact.controller')
 
 //now we will create the routes 
 //**************************************ROUTES************************** *//
@@ -27,6 +27,8 @@ const {
 //@data:no data
 // @acess:puplic
 // */
+  
+  
 router.get('/test',(req,res)=>{
   res.send("hello test")
 })
